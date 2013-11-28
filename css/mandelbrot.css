@@ -1,0 +1,52 @@
+body {
+	font-family: arial,sans-serif;
+}
+
+/*
+ * wrapper_block
+ *  |
+ *  +--> header_block
+ *  |
+ *  +--> main_block
+ *  |     |
+ *  |     +--> image_block
+ *  |     |
+ *  |     +--> sidebar_block
+ *  |
+ *  +--> footer__block
+ */
+
+#wrapper_block {
+	width:				1100px;
+	padding:			8px;
+	border:				2px solid #eef;
+	margin:				0px auto;
+	background:	#f8f8fa;
+}
+
+#main_block {
+}
+
+#main_block div {
+	float:		left;
+	padding:	3px;
+	margin:		4px;
+	border:		1px solid black;
+	background:	#dde;
+}
+
+#image_block {
+	width:			800px;
+	height:			600px;
+	background:		#778;
+}
+
+#sidebar_block {
+	width:			216px;
+	height:			600px;
+}
+
+#footer_block {
+	clear:	both;
+}
+
